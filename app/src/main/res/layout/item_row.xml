@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#009688">
+
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sayı"
+        android:padding="40dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+</com.google.android.material.card.MaterialCardView>
